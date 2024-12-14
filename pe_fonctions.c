@@ -8,21 +8,21 @@
 #include <stdio.h>
 #include <stdbool.h>
 
-bool isPrime(long num) {
-    if (num <= 1) {
+bool isPrime(long number) {
+    if (number <= 1) {
         return false;
     }
 
-    if (num == 2 || num == 3) {
+    if (number == 2 || number == 3) {
         return true;
     }
 
-    if (num % 2 == 0) {
+    if (number % 2 == 0) {
         return false;
     }
 
-    for (int i = 3; i * i <= num; i += 2) {
-        if (num % i == 0) {
+    for (int i = 3; i * i <= number; i += 2) {
+        if (number % i == 0) {
             return false;
         }
     }

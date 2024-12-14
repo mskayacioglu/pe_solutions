@@ -1,3 +1,3 @@
 //  Created by Mert Samet Kayacıoğlu
 
-bool isPrime(long n);
+bool isPrime(long number);
