@@ -5,9 +5,6 @@
 #include <string.h>
 #include "pe_fonctions.h"
 
-#include <stdio.h>
-#include <stdbool.h>
-
 bool isPrime(long number) {
     if (number <= 1) {
         return false;
