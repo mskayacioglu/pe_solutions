@@ -26,3 +26,18 @@ bool isPrime(long number) {
 
     return true; 
 }
+
+bool isPalindromicNumber(int number) {
+    if (number < 0) return 0;
+
+    int original = number;
+    int reversed = 0;
+
+    while (number != 0) {
+	int digit = number % 10;
+	reversed = reversed * 10 + digit;
+	number /= 10;
+    }
+
+    return original == reversed;
+}
