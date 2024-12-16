@@ -4,14 +4,14 @@
 #include "pe_fonctions.h"
 
 int main(){
-	int sum = 0;
+    int sum = 0;
 	
-	for(int i = 3; i < 1000; i++){
-		if(i % 3 == 0) sum += i;
-		else if(i % 5 == 0) sum += i;		
-	} 
+    for(int i = 3; i < 1000; i++){
+	if(i % 3 == 0) sum += i;
+	else if(i % 5 == 0) sum += i;		
+    } 
 	
-	printf("%d\n", sum);	
+    printf("%d\n", sum);	
 
-	return 0;
+    return 0;
 }
