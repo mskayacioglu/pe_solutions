@@ -1,23 +1,22 @@
-//Largest Prime Factor
+// Largest Prime Factor
 
-#include <stdio.h>
+#include "pe_functions.h"
 #include <stdbool.h>
-#include "pe_fonctions.h"
+#include <stdio.h>
 
 int main() {
-    long number = 600851475143;
-    long prime_factor = 2;
-    
-    while (prime_factor <= number) {
-    	if (number % prime_factor == 0) {
-            if (isPrime(prime_factor)) {
-                number /= prime_factor;
-            }
-        }else prime_factor++;
-    }
+  long number = 600851475143;
+  long prime_factor = 2;
 
-    printf("%ld\n", prime_factor);
-    
-    return 0;
+  while (prime_factor <= number) {
+    if (number % prime_factor == 0) {
+      if (is_prime(prime_factor))
+        number /= prime_factor;
+    } else
+      prime_factor++;
+  }
+
+  printf("%ld\n", prime_factor);
+
+  return 0;
 }
-
