@@ -4,7 +4,7 @@
 #include <stdbool.h>
 #include <stdio.h>
 
-int main() {
+int main(void) {
   long number = 600851475143;
   long prime_factor = 2;
 

@@ -4,7 +4,7 @@
 #include <stdbool.h>
 #include <stdio.h>
 
-int main() {
+int main(void) {
   int largest_palindrome = 0, number_1, number_2;
 
   for (number_1 = 100; number_1 <= 999; number_1++) {

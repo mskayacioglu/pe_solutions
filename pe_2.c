@@ -3,7 +3,7 @@
 #include "pe_functions.h"
 #include <stdio.h>
 
-int main() {
+int main(void) {
   int sum = 1, fib_num1 = 1, fib_num2 = 2, temp;
 
   while (fib_num2 < 4000000) {
