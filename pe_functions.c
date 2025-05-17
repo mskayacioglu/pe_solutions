@@ -34,3 +34,14 @@ bool is_palindrome(int number) {
 
   return original == reversed;
 }
+
+long gcd(long a, long b) {
+  while (b != 0) {
+    long tmp = b;
+    b = a % b;
+    a = tmp;
+  }
+  return a;
+}
+
+long lcm(long a, long b) { return a * b / gcd(a, b); }
