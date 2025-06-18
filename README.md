@@ -1,4 +1,4 @@
-# My Solutions to Project Euler Problems in C
+# Solutions to Project Euler Problems in C
 
 **Link:** [Project Euler](https://projecteuler.net/about)
 
