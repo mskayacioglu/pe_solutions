@@ -2,6 +2,8 @@
 
 **Link:** [Project Euler](https://projecteuler.net/about)
 
+> ["Hello, World!" program handwritten in the C language and signed by Brian Kernighan (1978)](https://en.wikipedia.org/wiki/%22Hello,_World!%22_program#/media/File:Hello_World_Brian_Kernighan_1978.jpg)
+
 ## Problems
 
 1. [Multiples of 3 or 5](https://projecteuler.net/problem=1)  
