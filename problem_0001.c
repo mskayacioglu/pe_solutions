@@ -1,5 +1,6 @@
 // Multiples of 3 or 5
 // Problem 1
+// https://projecteuler.net/problem=1
 
 #include "pe_functions.h"
 #include <stdio.h>
