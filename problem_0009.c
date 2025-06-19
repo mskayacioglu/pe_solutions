@@ -1,5 +1,6 @@
 // Special Pythagorean Triplet
 // Problem 9
+// https://projecteuler.net/problem=9
 
 #include "pe_functions.h"
 #include <stdbool.h>
