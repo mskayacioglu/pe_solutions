@@ -1,5 +1,6 @@
 // Summation of Primes
 // Problem 10
+// https://projecteuler.net/problem=10
 
 #include "pe_functions.h"
 #include <stdbool.h>
