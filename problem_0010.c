@@ -7,12 +7,12 @@
 #include <string.h>
 
 int main(void) {
-    long sum = 0;
-    for (long i = 2; i < 2000000; i++){
-        if (is_prime(i)) {
-            sum += i;
-        }
+  long sum = 0;
+  for (long i = 2; i < 2000000; i++) {
+    if (is_prime(i)) {
+      sum += i;
     }
-    printf("%ld", sum);
+  }
+  printf("%ld", sum);
   return 0;
 }
