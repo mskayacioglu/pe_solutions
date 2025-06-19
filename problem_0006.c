@@ -1,5 +1,6 @@
 // Sum Square Difference
 // Problem 6
+// https://projecteuler.net/problem=6
 
 #include "pe_functions.h"
 #include <stdbool.h>
