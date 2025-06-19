@@ -1,5 +1,6 @@
 // 10 001st Prime
 // Problem 7
+// https://projecteuler.net/problem=7
 
 #include "pe_functions.h"
 #include <stdbool.h>
