@@ -15,3 +15,4 @@
 7. [10 001st Prime](https://projecteuler.net/problem=7)  
 8. [Largest Product in a Series](https://projecteuler.net/problem=8)
 9. [Special Pythagorean Triplet](https://projecteuler.net/problem=9)
+10. [Summation of Primes](https://projecteuler.net/problem=10) 
