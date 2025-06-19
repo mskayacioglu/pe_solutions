@@ -1,5 +1,6 @@
 // Largest Product in a Series
 // Problem 8
+// https://projecteuler.net/problem=8
 
 #include "pe_functions.h"
 #include <stdbool.h>
