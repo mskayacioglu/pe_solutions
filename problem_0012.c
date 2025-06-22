@@ -1,5 +1,5 @@
 // Largest Product in a Grid
-// Probem 11
+// Probem 10
 // https://projecteuler.net/problem=11
 
 #include "pe_functions.h"
@@ -76,3 +76,4 @@ int main(void){
 
   return 0;
 }
+
