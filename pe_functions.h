@@ -17,4 +17,6 @@ long gcd(long a, long b);
 
 long lcm(long a, long b);
 
+bool is_divisor(long num, long div);
+
 #endif // PE_FUNCTIONS_H

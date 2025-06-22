@@ -17,3 +17,4 @@
 9. [Special Pythagorean Triplet](https://projecteuler.net/problem=9)
 10. [Summation of Primes](https://projecteuler.net/problem=10) 
 11. [Largest Product in a Grid](https://projecteuler.net/problem=11)  
+12. [Highly Divisible Triangular Number](https://projecteuler.net/problem=12)  

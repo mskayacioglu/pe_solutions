@@ -45,3 +45,7 @@ long gcd(long a, long b) {
 }
 
 long lcm(long a, long b) { return a * b / gcd(a, b); }
+
+bool is_divisor(long num, long div){
+    return num % div == 0;
+}
