@@ -49,3 +49,27 @@ long lcm(long a, long b) { return a * b / gcd(a, b); }
 bool is_divisor(long num, long div){
     return num % div == 0;
 }
+
+long factorial(int n) {
+    if (n < 0) {
+        printf("Error: The factorial value cannot be calculated for negative numbers.\n");
+        return -1;
+    }
+    if (n == 0 || n == 1)
+        return 1;
+    else
+        return n * factorial(n - 1);
+}
+
+unsigned long long lattice_path(int a, int b) {
+    int n = a + b;
+    int r = a < b ? a : b;
+    unsigned long long result = 1;
+
+    for (int i = 1; i <= r; i++) {
+        result *= (n - r + i);
+        result /= i;
+    }
+
+    return result;
+}

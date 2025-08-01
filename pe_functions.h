@@ -19,4 +19,8 @@ long lcm(long a, long b);
 
 bool is_divisor(long num, long div);
 
+long factorial(int n);
+
+unsigned long long lattice_path(int a, int b);
+
 #endif // PE_FUNCTIONS_H
