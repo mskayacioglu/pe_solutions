@@ -23,3 +23,4 @@
 15. [Lattice Paths](https://projecteuler.net/problem=15)
 16. [Power Digit Sum](https://projecteuler.net/problem=16)
 17. [Number Letter Counts](https://projecteuler.net/problem=17)
+18. [Maximum Path Sum I](https://projecteuler.net/problem=18)
