@@ -26,4 +26,6 @@ long factorial(int n);
 
 unsigned long long lattice_path(int a, int b);
 
+bool is_leap_year(int year);
+
 #endif // PE_FUNCTIONS_H

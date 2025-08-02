@@ -72,3 +72,7 @@ unsigned long long lattice_path(int a, int b) {
 
   return result;
 }
+
+bool is_leap_year(int year) {
+  return (year % 4 == 0 && year % 100 != 0) || (year % 400 == 0);
+}
