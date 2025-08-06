@@ -1,0 +1,36 @@
+// Amicable Numbers
+// Probem 21
+// https://projecteuler.net/problem=21
+
+#include "pe_functions.h"
+#include <stdbool.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+int main(void) {
+  long nums[10000] = {0};
+  long sum = 0;
+
+  for (long i = 2; i < 10000; i++) {
+    long divisor_sum = 0;
+    for (long j = 1; j <= i / 2; j++) {
+      if (is_divisor(i, j))
+        divisor_sum += j;
+    }
+    nums[i] = divisor_sum;
+  }
+
+  for (int i = 2; i < 10000; i++) {
+    if (nums[i] == 0)
+      continue;
+    if (nums[i] >= 10000)
+      continue;
+    if (i == nums[nums[i]] && i != nums[i]) {
+      sum += i;
+    }
+  }
+  printf("%d\n", sum);
+  return 0;
+}
