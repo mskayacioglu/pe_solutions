@@ -1,6 +1,25 @@
 //  Created by Mert Samet Kayacıoğlu
 
 #include "pe_functions.h"
+#include <stdlib.h>
+
+Node *createNode(int data) {
+  Node *new_node = malloc(sizeof(Node));
+  new_node->data = data;
+  new_node->next = NULL;
+  new_node->prev = NULL;
+  return new_node;
+}
+
+void push_back(Node **head, Node **tail, int digit) {
+  Node *n = createNode(digit);
+  n->prev = *tail;
+  if (*tail)
+    (*tail)->next = n;
+  else
+    *head = n;
+  *tail = n;
+}
 
 bool is_prime(long number) {
   if (number <= 1)
@@ -75,4 +94,12 @@ unsigned long long lattice_path(int a, int b) {
 
 bool is_leap_year(int year) {
   return (year % 4 == 0 && year % 100 != 0) || (year % 400 == 0);
+}
+
+long linear_search(long arr[], long size, long goal)
+{
+    for (int i = 0; i < size; i++)
+        if (arr[i] == goal)
+            return i;
+    return -1;
 }
