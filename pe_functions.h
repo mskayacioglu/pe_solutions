@@ -44,4 +44,8 @@ bool is_leap_year(int year);
 
 long linear_search(long arr[], long size, long goal);
 
+int is_pefect(int num);
+
+int is_abundant(int num);
+
 #endif // PE_FUNCTIONS_H

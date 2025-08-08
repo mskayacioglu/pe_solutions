@@ -103,3 +103,29 @@ long linear_search(long arr[], long size, long goal)
             return i;
     return -1;
 }
+
+int is_pefect(int num) {
+    int sum = 0;
+    
+    for (int i = 0; i < num / 2; i++) {
+        if (num % i == 0) sum += i;
+    }
+    if (sum == num) {
+        return 1;
+    } else {
+        return 0;
+    }
+}
+
+int is_abundant(int num) {
+    if (num < 1) return 0;
+    int sum = 1;
+    for (int i = 2; i * i <= num; i++) {
+        if (num % i == 0) {
+            sum += i;
+            if (i != num / i)
+                sum += num / i;
+        }
+    }
+    return sum > num;
+}
