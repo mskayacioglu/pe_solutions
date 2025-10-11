@@ -1,5 +1,5 @@
 // Power Digit Sum
-// Probem 16
+// Problem 16
 // https://projecteuler.net/problem=16
 
 #include "pe_functions.h"
