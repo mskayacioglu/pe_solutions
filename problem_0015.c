@@ -1,5 +1,5 @@
 // Lattice Paths
-// Probem 15
+// Problem 15
 // https://projecteuler.net/problem=15
 
 #include "pe_functions.h"
