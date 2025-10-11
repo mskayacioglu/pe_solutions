@@ -1,5 +1,5 @@
 // Non-Abundant Sums
-// Probem 23
+// Problem 23
 // https://projecteuler.net/problem=23
 
 #include "pe_functions.h"
