@@ -1,5 +1,5 @@
 // Longest Collatz Sequence
-// Probem 14
+// Problem 14
 // https://projecteuler.net/problem=14
 
 #include "pe_functions.h"
