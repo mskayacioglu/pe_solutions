@@ -29,3 +29,4 @@
 21. [Amicable Numbers](https://projecteuler.net/problem=21)
 22. [Names Scores](https://projecteuler.net/problem=22)
 23. [Non-Abundant Sums](https://projecteuler.net/problem=23)
+24. [Lexicographic Permutations](https://projecteuler.net/problem=24)
