@@ -1,5 +1,5 @@
 // Amicable Numbers
-// Probem 21
+// Problem 21
 // https://projecteuler.net/problem=21
 
 #include "pe_functions.h"
