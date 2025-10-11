@@ -1,5 +1,5 @@
 // Large Sum
-// Probem 13
+// Problem 13
 // https://projecteuler.net/problem=13
 
 #include "pe_functions.h"
