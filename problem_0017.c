@@ -1,5 +1,5 @@
 // Number Letter Counts
-// Probem 17
+// Problem 17
 // https://projecteuler.net/problem=17
 
 #include "pe_functions.h"
