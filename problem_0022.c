@@ -1,5 +1,5 @@
 // Names Scores
-// Probem 22
+// Problem 22
 // https://projecteuler.net/problem=22
 
 #include "pe_functions.h"
