@@ -1,5 +1,5 @@
 // Counting Sundays
-// Probem 19
+// Problem 19
 // https://projecteuler.net/problem=19
 
 #include "pe_functions.h"
