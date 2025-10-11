@@ -1,5 +1,5 @@
 // Maximum Path Sum I
-// Probem 18
+// Problem 18
 // https://projecteuler.net/problem=18
 
 #include "pe_functions.h"
