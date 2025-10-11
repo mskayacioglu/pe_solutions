@@ -1,5 +1,5 @@
 // Highly Divisible Triangular Number
-// Probem 12
+// Problem 12
 // https://projecteuler.net/problem=12
 
 #include "pe_functions.h"
