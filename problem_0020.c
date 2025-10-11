@@ -1,5 +1,5 @@
 // Factorial Digit Sum
-// Probem 20
+// Problem 20
 // https://projecteuler.net/problem=20
 
 #include "pe_functions.h"
