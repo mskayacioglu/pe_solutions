@@ -2,7 +2,6 @@
 // Problem 24
 // https://projecteuler.net/problem=24
 
-#include "pe_functions.h"
 #include <stdio.h>
 
 int next_permutation(int *a, int n) {
