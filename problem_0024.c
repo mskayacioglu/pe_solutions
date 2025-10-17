@@ -4,6 +4,26 @@
 
 #include <stdio.h>
 
+int next_permutation(int *a, int n);
+
+int main() {
+    int a[] = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
+    int n = sizeof(a) / sizeof(a[0]);
+    size_t count = 1;
+
+    while (count < 1000000) {
+        if (!next_permutation(a, n)) break;
+        count++;
+    }
+
+    printf("\n%s", "> ");
+    for (int i = 0; i < n; i++) {
+        printf("%d", a[i]);
+    }
+    printf("\n\n");
+    return 0;
+}
+
 int next_permutation(int *a, int n) {
     int i = n - 2;
     while (i >= 0 && a[i] >= a[i + 1]) i--;
@@ -28,22 +48,4 @@ int next_permutation(int *a, int n) {
     }
 
     return 1;
-}
-
-int main() {
-    int a[] = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
-    int n = sizeof(a) / sizeof(a[0]);
-    size_t count = 1;
-
-    while (count < 1000000) {
-        if (!next_permutation(a, n)) break;
-        count++;
-    }
-
-    printf("\n%s", "> ");
-    for (int i = 0; i < n; i++) {
-        printf("%d", a[i]);
-    }
-    printf("\n\n");
-    return 0;
 }
