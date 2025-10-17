@@ -37,7 +37,7 @@ int main(void) {
     }
   }
 
-  printf("%d\n", sunday_count);
+  printf("> %d\n", sunday_count);
   return 0;
 }
 
