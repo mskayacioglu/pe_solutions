@@ -11,7 +11,7 @@
 unsigned long long lattice_path(int a, int b);
 
 int main(void) {
-  printf("%llu\n", lattice_path(20, 20));
+  printf("> %llu\n", lattice_path(20, 20));
   return 0;
 }
 
