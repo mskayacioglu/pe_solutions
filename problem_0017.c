@@ -2,7 +2,6 @@
 // Problem 17
 // https://projecteuler.net/problem=17
 
-#include "pe_functions.h"
 #include <stdbool.h>
 #include <stdint.h>
 #include <stdio.h>
