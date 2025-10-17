@@ -2,12 +2,13 @@
 // Problem 19
 // https://projecteuler.net/problem=19
 
-#include "pe_functions.h"
 #include <stdbool.h>
 #include <stdint.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+
+bool is_leap_year(int year);
 
 int main(void) {
   int day_of_week = 1; // Start from 1 Jan 1900
@@ -38,4 +39,8 @@ int main(void) {
 
   printf("%d\n", sunday_count);
   return 0;
+}
+
+bool is_leap_year(int year) {
+  return (year % 4 == 0 && year % 100 != 0) || (year % 400 == 0);
 }
