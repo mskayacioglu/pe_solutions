@@ -33,7 +33,7 @@ int main(void) {
     multiplyListByInt(&head, &tail, i);
   }
 
-  printf("%d\n", sumOfDigits(head));
+  printf("> %d\n", sumOfDigits(head));
 
   return 0;
 }
