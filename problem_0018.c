@@ -37,6 +37,6 @@ int main(void) {
     }
   }
 
-  printf("%d\n", triangle[0][0]);
+  printf("> %d\n", triangle[0][0]);
   return 0;
 }
