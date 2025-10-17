@@ -2,7 +2,6 @@
 // Problem 6
 // https://projecteuler.net/problem=6
 
-#include "pe_functions.h"
 #include <stdbool.h>
 #include <stdio.h>
 
@@ -15,6 +14,6 @@ int main(void) {
   }
   square_sums *= square_sums;
 
-  printf("%ld", (square_sums - sum_squares));
+  printf("> %ld\n", (square_sums - sum_squares));
   return 0;
 }
