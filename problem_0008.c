@@ -2,7 +2,6 @@
 // Problem 8
 // https://projecteuler.net/problem=8
 
-#include "pe_functions.h"
 #include <stdbool.h>
 #include <stdio.h>
 #include <string.h>
@@ -42,6 +41,6 @@ int main(void) {
     }
   }
 
-  printf("%ld\n", max_product);
+  printf("> %ld\n", max_product);
   return 0;
 }
