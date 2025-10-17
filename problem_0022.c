@@ -2,26 +2,15 @@
 // Problem 22
 // https://projecteuler.net/problem=22
 
-#include "pe_functions.h"
 #include <stdbool.h>
 #include <stdint.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 
-int cmp_str(const void *a, const void *b) {
-  char *s1 = *(char **)a;
-  char *s2 = *(char **)b;
-  return strcmp(s1, s2);
-}
+int cmp_str(const void *a, const void *b);
 
-int name_value(const char *name) {
-  int sum = 0;
-  for (int i = 0; name[i] != '\0'; i++) {
-    sum += name[i] - 'A' + 1;
-  }
-  return sum;
-}
+int name_value(const char *name);
 
 int main(void) {
   FILE *fp = fopen("names.txt", "r");
@@ -70,4 +59,18 @@ int main(void) {
   free(names);
   fclose(fp);
   return 0;
+}
+
+int cmp_str(const void *a, const void *b) {
+  char *s1 = *(char **)a;
+  char *s2 = *(char **)b;
+  return strcmp(s1, s2);
+}
+
+int name_value(const char *name) {
+  int sum = 0;
+  for (int i = 0; name[i] != '\0'; i++) {
+    sum += name[i] - 'A' + 1;
+  }
+  return sum;
 }
