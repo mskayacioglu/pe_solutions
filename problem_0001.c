@@ -2,7 +2,6 @@
 // Problem 1
 // https://projecteuler.net/problem=1
 
-#include "pe_functions.h"
 #include <stdio.h>
 
 int main(void) {
@@ -15,7 +14,7 @@ int main(void) {
       sum += i;
   }
 
-  printf("%d\n", sum);
+  printf("> %d\n", sum);
 
   return 0;
 }
