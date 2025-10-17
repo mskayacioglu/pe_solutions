@@ -2,7 +2,6 @@
 // Problem 13
 // https://projecteuler.net/problem=13
 
-#include "pe_functions.h"
 #include <stdbool.h>
 #include <stdint.h>
 #include <stdio.h>
@@ -15,23 +14,9 @@ typedef struct Node {
   struct Node *next;
 } Node;
 
-Node *createNode(int data) {
-  Node *new_node = malloc(sizeof(Node));
-  new_node->digit = data;
-  new_node->next = NULL;
-  new_node->prev = NULL;
-  return new_node;
-}
+Node *createNode(int data);
 
-void push_back(Node **head, Node **tail, int digit) {
-  Node *n = createNode(digit);
-  n->prev = *tail;
-  if (*tail)
-    (*tail)->next = n;
-  else
-    *head = n;
-  *tail = n;
-}
+void push_back(Node **head, Node **tail, int digit);
 
 int main(void) {
   const char *numbers[100] = {
@@ -165,4 +150,22 @@ int main(void) {
   }
 
   return 0;
+}
+
+Node *createNode(int data) {
+  Node *new_node = malloc(sizeof(Node));
+  new_node->digit = data;
+  new_node->next = NULL;
+  new_node->prev = NULL;
+  return new_node;
+}
+
+void push_back(Node **head, Node **tail, int digit) {
+  Node *n = createNode(digit);
+  n->prev = *tail;
+  if (*tail)
+    (*tail)->next = n;
+  else
+    *head = n;
+  *tail = n;
 }
