@@ -138,6 +138,7 @@ int main(void) {
     carry /= 10;
   }
 
+  printf("> ");
   for (int i = 0; i < 10 && tail; ++i, tail = tail->prev) {
     putchar('0' + tail->digit);
   }
