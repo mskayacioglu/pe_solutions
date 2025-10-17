@@ -71,7 +71,7 @@ int main(void){
     }
   }
 
-  printf("%d\n", max_value);
+  printf("> %d\n", max_value);
 
   return 0;
 }
