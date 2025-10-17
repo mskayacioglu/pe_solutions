@@ -51,7 +51,7 @@ int main(void) {
     total += (long long)position * value;
   }
 
-  printf("%lld\n", total);
+  printf("> %lld\n", total);
 
   for (int i = 0; i < count; i++) {
     free(names[i]);
