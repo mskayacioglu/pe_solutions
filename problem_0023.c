@@ -2,13 +2,15 @@
 // Problem 23
 // https://projecteuler.net/problem=23
 
-#include "pe_functions.h"
+//#include "pe_functions.h"
 #include <stdbool.h>
 #include <stdint.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 #define LIMIT 28124
+
+int is_abundant(int n);
 
 int main(void) {
   bool abundant[LIMIT] = {false};
@@ -39,4 +41,17 @@ int main(void) {
 
   printf("%d\n", result);
   return 0;
+}
+
+int is_abundant(int num) {
+    if (num < 1) return 0;
+    int sum = 1;
+    for (int i = 2; i * i <= num; i++) {
+        if (num % i == 0) {
+            sum += i;
+            if (i != num / i)
+                sum += num / i;
+        }
+    }
+    return sum > num;
 }
