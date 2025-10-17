@@ -40,6 +40,6 @@ int main(void) {
       counter += strlen(units[i % 10]);
     }
   }
-  printf("%d\n", counter);
+  printf("> %d\n", counter);
   return 0;
 }
