@@ -2,12 +2,13 @@
 // Problem 21
 // https://projecteuler.net/problem=21
 
-#include "pe_functions.h"
 #include <stdbool.h>
 #include <stdint.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+
+bool is_divisor(long num, long div);
 
 int main(void) {
   long nums[10000] = {0};
@@ -34,3 +35,5 @@ int main(void) {
   printf("%d\n", sum);
   return 0;
 }
+
+bool is_divisor(long num, long div) { return num % div == 0; }
