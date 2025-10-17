@@ -38,7 +38,7 @@ int main(void) {
       result += i;
   }
 
-  printf("%d\n", result);
+  printf("> %d\n", result);
   return 0;
 }
 
