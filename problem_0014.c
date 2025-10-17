@@ -2,7 +2,6 @@
 // Problem 14
 // https://projecteuler.net/problem=14
 
-#include "pe_functions.h"
 #include <stdbool.h>
 #include <stdint.h>
 #include <stdio.h>
@@ -31,7 +30,7 @@ int main(void) {
       result = i;
     }
   }
-  printf("%d", result);
+  printf("> %d\n", result);
 
   return 0;
 }
