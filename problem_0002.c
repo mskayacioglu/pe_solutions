@@ -2,7 +2,6 @@
 // Problem 2
 // https://projecteuler.net/problem=2
 
-#include "pe_functions.h"
 #include <stdio.h>
 
 int main(void) {
@@ -17,7 +16,7 @@ int main(void) {
     fib_num1 = temp;
   }
 
-  printf("%d\n", sum);
+  printf("> %d\n", sum);
 
   return 0;
 }
