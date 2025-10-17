@@ -2,12 +2,14 @@
 // Problem 18
 // https://projecteuler.net/problem=18
 
-#include "pe_functions.h"
 #include <stdbool.h>
 #include <stdint.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+
+#define MIN(X, Y) (((X) < (Y)) ? (X) : (Y))
+#define MAX(X, Y) (((X) > (Y)) ? (X) : (Y))
 
 int main(void) {
   int triangle[15][15] = {
