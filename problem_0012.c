@@ -2,10 +2,11 @@
 // Problem 12
 // https://projecteuler.net/problem=12
 
-#include "pe_functions.h"
 #include <stdbool.h>
 #include <stdio.h>
 #include <string.h>
+
+bool is_divisor(long num, long div);
 
 int main(void) {
   long triangle_number = 0;
@@ -27,10 +28,14 @@ int main(void) {
     }
 
     if (count > 500) {
-      printf("%ld\n", triangle_number);
+      printf("> %ld\n", triangle_number);
       break;
     }
   }
 
   return 0;
+}
+
+bool is_divisor(long num, long div) { 
+  return num % div == 0; 
 }
