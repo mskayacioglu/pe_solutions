@@ -2,7 +2,6 @@
 // Problem 9
 // https://projecteuler.net/problem=9
 
-#include "pe_functions.h"
 #include <stdbool.h>
 #include <stdio.h>
 #include <string.h>
@@ -24,6 +23,6 @@ int main(void) {
     }
   }
 done:
-  printf("%d", a * b * c);
+  printf("> %d\n", a * b * c);
   return 0;
 }
